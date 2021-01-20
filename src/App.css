@@ -13,3 +13,21 @@
 .center {
   text-align: center;
 }
+
+.computer-view {
+  display: flex;
+  justify-content: center;
+  padding: 35px;
+}
+
+.computer-view-items>img{
+  height: 350px;
+}
+
+.computer-view-items>h4{
+  padding: 15px ;
+  }
+
+.computer-view-items>p{
+padding: 15px ;
+}

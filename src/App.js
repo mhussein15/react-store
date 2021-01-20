@@ -1,24 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <h1 className="title center">Computer Store</h1>
+      <h5 className="secondary-title center">Your Place for a Custom PC</h5>
+      <div className="center">
+        <img
+          className="img-responsive"
+          src="https://cdn.shopify.com/s/files/1/0944/0000/collections/best-gaming-computers-toronto-canada-store-local-near-me_2000x.png?v=1601770840"
+        />
+      </div>
+    </>
   );
 }
 

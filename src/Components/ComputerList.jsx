@@ -1,11 +1,15 @@
-import React from "react";
-import Computer from"./Computer"
+import Computer from "./Computer";
 import computers from "../computers";
+import { ComputerListWrapper } from "../styles";
 function ComputerList() {
   const computerList = computers.map((computer) => (
-    <Computer key={computer.id} computer={computer}/>
+    <Computer key={computer.id} computer={computer} />
   ));
-  return <div className="computer-view">{computerList}</div>;
+  return (
+    <ComputerListWrapper>
+      {computerList}
+    </ComputerListWrapper>
+  );
 }
 
 export default ComputerList;

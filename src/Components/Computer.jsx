@@ -1,11 +1,10 @@
-import React from "react";
-
+import { ComputerListItems } from "../styles";
 export default function Computer(props) {
   return (
-    <div className="computer-view-items">
+    <ComputerListItems>
       <h4>{props.computer.name}</h4>
       <img src={props.computer.imgURL} />
-      <p>Price:- {props.computer.price}</p>
-    </div>
+      <p>{props.computer.price}</p>
+    </ComputerListItems>
   );
 }

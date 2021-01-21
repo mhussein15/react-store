@@ -18,6 +18,7 @@
   display: flex;
   justify-content: center;
   padding: 35px;
+  flex-wrap: wrap;
 }
 
 .computer-view-items>img{
@@ -30,4 +31,8 @@
 
 .computer-view-items>p{
 padding: 15px ;
+}
+
+.margin-top{
+  margin-top: 15px;
 }
